@@ -1,0 +1,144 @@
+.login {
+    background-color: #f9fafa;
+    min-height: calc(100vh - 66px);
+    min-width: 100vw;
+    padding-top: 82px;
+}
+
+.login_conainer {
+    max-width: 1016px;
+    overflow: hidden;
+    margin: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #e3e4e8;
+    border-radius: 8px;
+}
+
+.login_left_side {
+    background: url('/assets/images/loginbg.svg');
+    background-size: 100%;
+    width: 50%;
+    min-height: 536px;
+    margin-top: 82px;
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+.login_left_content {
+    max-width: 370px;
+    margin: 0 auto;
+    padding: 71px 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 20px;
+}
+
+.login_left_content img {
+    width: 202px;
+}
+
+.login_right_side {
+    width: 50%;
+    background-color: white;
+    width: 50%;
+}
+
+.login_right_side > div {
+    max-width: 332px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.login_right_side h1 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 72px;
+    color: #000000;
+    text-align: center;
+}
+
+.radio_button {
+    position: relative;
+    height: 51px;
+    border-radius: 4px;
+    border: 1px solid #e3e4e8;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.radio_button label {
+    color: #000000;
+    font-size: 15px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: 400;
+}
+
+.radio_button input {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    inset: 0;
+}
+
+.checkmark {
+    width: 16px;
+    background: rgb(227, 227, 227);
+    flex-shrink: 1;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.checkmark span {
+    width: 8px;
+    background: white;
+    flex-shrink: 1;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.radio_button input:checked ~ .checkmark {
+    background-color: #3354ff;
+}
+
+.login_right_side button {
+    color: white;
+    width: 100%;
+    height: 51px;
+    border-radius: 4px;
+    background-color: #3354ff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 72px;
+}
+
+.siginlink {
+    display: flex;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    color: #767b8a;
+}
+
+.siginlink a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #3354ff;
+    text-decoration: none;
+    
+}
